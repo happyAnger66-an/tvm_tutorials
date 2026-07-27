@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../hello_tvm"
+		},
+		{
+			"path": "../tvm"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

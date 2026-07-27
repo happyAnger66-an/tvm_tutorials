@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../tvm"
+		},
+		{
+			"path": "../hello_tvm"
+		},
+		{
+			"path": "../mlc-llm"
+		}
+	]
+}
