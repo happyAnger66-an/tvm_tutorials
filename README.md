@@ -22,7 +22,10 @@ tvm_tutorials/
 │   ├── decoder_paged_kv.py
 │   └── README.md
 ├── docs/
-│   └── custom_tvm.md          # 端侧选型：TVM vs TensorRT / Inductor 等
+│   ├── custom_tvm.md          # 端侧选型：TVM vs TensorRT / Inductor 等
+│   ├── mlc_llm_byoc.md        # MLC-LLM 挂 FlashInfer / cuBLAS / CUTLASS
+│   └── byoc/
+│       └── byoc_new_backend.md # BYOC 后端清单、pi05→TRT、如何扩展新后端
 ├── install.md                 # 本机从源码编译 TVM（CUDA / cuDNN / CUTLASS / LLVM）
 └── README.md
 ```
@@ -121,3 +124,4 @@ python3 learn_compare.py all --out /tmp/tvm_learn
 - `$TVM_HOME/docs/how_to/tutorials/optimize_llm.py`
 - `mlc-llm/python/mlc_llm/model/llama/llama_model.py`
 - [docs/custom_tvm.md](docs/custom_tvm.md)：开放 IR 编译框架与黑盒推理引擎的选型对比
+- [docs/byoc/byoc_new_backend.md](docs/byoc/byoc_new_backend.md)：BYOC 后端清单、pi05→TensorRT 实践、扩展新后端的三种方式
